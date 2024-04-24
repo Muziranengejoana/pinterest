@@ -1,0 +1,138 @@
+body{
+    background: rgba(255,255,255,0.5);
+    background-image: url(myImages/coffee.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body img{
+    opacity: 1.0;
+    height: 15px;
+    width: 15px;
+}
+.firstIcons{
+    display: flex;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.divIcon1{
+    margin-left: 30px;
+}
+.divIcon2{
+    margin-left: 125px;
+}
+.parent{
+    background-color: whitesmoke;
+    border-radius: 3%;
+    height: 75vh;
+    width: 25%;
+    margin-top: 7%;
+    border: 3px solid black;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email .button1{
+    border: 2px solid rgb(77, 151, 200);
+}
+.password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button1{
+    margin-top: 2px;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 7px;
+    border:  1px solid gray;;
+    color: gray;
+    text-align: left;
+}
+.forgot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    height: 5vh;
+    width: 15vw;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button3{
+    height: 5vh;
+    width: 15vw;
+    background-color: rgb(193, 5, 5);
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.continue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.button4{
+    height: 5vh;
+    width: 15vw;
+    background-color: #2768ec;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+.button5{
+    height: 5vh;
+    width: 15vw;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    border: 1px solid gray;
+    color: gray;
+}
+.privacyPolicy p{
+    font-size:x-small;
+    font-weight:lighter;
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+.privacyPolicy span{
+    font-size:x-small;
+    font-weight:bold;
+    color: black;
+    
+    justify-content: center;
+    align-items: center;
+}
+.span2{
+    margin-left: 53px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+    font-weight:bold;
+}
